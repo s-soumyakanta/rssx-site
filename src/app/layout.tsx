@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "RSS Explorer",
   description: "Discover, curate, and explore the world of RSS feeds with ease. Stay tuned for updates!",
+  appleWebApp: {
+    title: "RSSX",
+  }
 };
 
 export default function RootLayout({
