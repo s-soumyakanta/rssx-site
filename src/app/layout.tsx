@@ -17,6 +17,21 @@ export const metadata: Metadata = {
   description: "Discover, curate, and explore the world of RSS feeds with ease. Stay tuned for updates!",
   appleWebApp: {
     title: "RSSX",
+  },
+  openGraph: {
+    title: "RSS Explorer",
+    description: "Discover, curate, and explore the world of RSS feeds with ease. Stay tuned for updates!",
+    url: "https://www.rssx.site",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "RSS Explorer",
+      },
+    ],
   }
 };
 
