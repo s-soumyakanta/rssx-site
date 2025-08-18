@@ -1,7 +1,6 @@
+import { LandingPage } from "@/section/landing/view";
 const Page = () => {
-  return (
-    <div>v1</div>
-  )
+  return <LandingPage />
 }
 
 export default Page;
